@@ -1,0 +1,4 @@
+# Ignore environment directory
+env/
+
+__pycache__/
