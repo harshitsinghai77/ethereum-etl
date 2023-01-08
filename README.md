@@ -12,7 +12,7 @@ The goal of this project is to create a short ETL pipeline that performs the fol
 To extract the data
 
 ```bash
-python extract_data.py
+python main.py
 ```
 
 The script will output the data as CSV files and will also convert them to parquet files (for optimized storage and retrieval).
