@@ -112,13 +112,19 @@ Before running the ETL pipeline, you will need to set up the following:
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/harshitsinghai77/ethereum-etl.git
 ```
 
 Go to the project directory
 
 ```bash
-cd etl-ethereum
+cd ethereum-etl
+```
+
+Requirements.txt
+
+```bash
+pip install -r requirements.txt
 ```
 
 Clickhouse deployment
