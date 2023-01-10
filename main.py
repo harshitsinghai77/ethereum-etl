@@ -13,7 +13,7 @@ BLOCKS_FILE_NAME = "blocks.csv"
 TRANSACTIONS_FILE_NAME = "transactions.csv"
 TOKEN_TRANSFERS_FILE_NAME = "token_transfers.csv"
 CONTRACT_ADDRESSES_FILE_NAME = "contract_addresses.txt"
-INFURA_API_KEY = "a0c9aea3296549c0abdab757236a7f46"
+INFURA_API_KEY = os.getenv("INFURA_API_KEY")
 
 
 def check_if_files_exist(file_name: str) -> bool:
